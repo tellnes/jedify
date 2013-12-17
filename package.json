@@ -1,0 +1,32 @@
+{
+  "name": "jedify",
+  "version": "0.0.0",
+  "description": "jedify",
+  "browser": "browser.js",
+  "main": "index.js",
+  "dependencies": {
+    "through": "~2.3.4",
+    "po2json": "~0.2.0",
+    "falafel": "~0.3.1",
+    "escodegen": "~1.0.1",
+    "minimist": "~0.0.5",
+    "jed": "~0.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "keywords": [
+    "browserify",
+    "i18n",
+    "internationalization",
+    "gettext"
+  ],
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tellnes/jedify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tellnes/jedify/issues"
+  }
+}
