@@ -1,4 +1,10 @@
-# jedify
+# jedify <sup>[![Version Badge](http://vb.teelaun.ch/tellnes/jedify.svg)](https://npmjs.org/package/jedify)</sup>
+
+[![Dependency Status](https://david-dm.org/tellnes/jedify.png)](https://david-dm.org/tellnes/jedify)
+[![devDependency Status](https://david-dm.org/tellnes/jedify/dev-status.png)](https://david-dm.org/tellnes/jedify#info=devDependencies)
+
+[![NPM](https://nodei.co/npm/jedify.png)](https://nodei.co/npm/jedify/)
+
 
 Browserify transformer for po files.
 
@@ -27,3 +33,6 @@ Eg.
 ## License
 
 MIT
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tellnes/jedify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
