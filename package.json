@@ -28,5 +28,8 @@
   },
   "bugs": {
     "url": "https://github.com/tellnes/jedify/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
