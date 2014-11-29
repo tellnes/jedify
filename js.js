@@ -2,7 +2,6 @@ var through = require('through')
   , falafel = require('falafel')
   , unparse = require('escodegen').generate
   , util = require('util')
-  , minimist = require('minimist')
 
 var defaultLang = process.env['JEDIFY_LANG'] || 'en'
 

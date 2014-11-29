@@ -9,7 +9,6 @@
     "po2json": "~0.2.0",
     "falafel": "~0.3.1",
     "escodegen": "~1.0.1",
-    "minimist": "~0.0.5",
     "jed": "~0.5.4"
   },
   "devDependencies": {},
