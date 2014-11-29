@@ -3,14 +3,12 @@ var through = require('through')
   , unparse = require('escodegen').generate
   , util = require('util')
 
-var defaultLang = process.env['JEDIFY_LANG'] || 'en'
-
 var re = /\.js$/
 
 module.exports = function (file, options) {
   if (!re.test(file)) return through()
   options = options || {}
-  var lang = options.lang || defaultLang
+  var lang = options.lang || options.l || 'en'
 
   var buf = []
     , stream = through(write, end)
