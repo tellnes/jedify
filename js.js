@@ -8,7 +8,7 @@ var re = /\.js$/
 module.exports = function (file, options) {
   if (!re.test(file)) return through()
   options = options || {}
-  var lang = options.lang || options.l || 'en'
+  var lang = options.lang || options.l || process.env['JEDIFY_LANG'] || 'en'
 
   var buf = []
     , stream = through(write, end)
