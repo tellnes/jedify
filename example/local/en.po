@@ -23,7 +23,7 @@ msgstr ""
 
 #: entry.js:7
 #, python-format
-msgid "Et resultat"
-msgid_plural "Fant %d resultater"
+msgid "One result"
+msgid_plural "Found %d results"
 msgstr[0] ""
 msgstr[1] ""

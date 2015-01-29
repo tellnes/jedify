@@ -21,7 +21,7 @@ module.exports = function (file) {
       output = po2json.parse(output, { format: 'jed' })
       var messages = output['locale_data']['messages']
       Object.keys(messages).forEach(function (key) {
-        if (Array.isArray(messages[key]) && messages[key][0] == null) {
+        if (Array.isArray(messages[key])) {
           messages[key].shift()
         }
       })
