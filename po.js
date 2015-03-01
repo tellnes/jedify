@@ -18,13 +18,8 @@ module.exports = function (file) {
   function end() {
     var output = buf.join('')
     try {
-      output = po2json.parse(output, { format: 'jed' })
+      output = po2json.parse(output, { format: 'jed1.x' })
       var messages = output['locale_data']['messages']
-      Object.keys(messages).forEach(function (key) {
-        if (Array.isArray(messages[key])) {
-          messages[key].shift()
-        }
-      })
       output = JSON.stringify(output)
     } catch (err) {
       this.emit('error', new Error(err.toString().replace('Error: ', '') + ' (' + file + ')'))
