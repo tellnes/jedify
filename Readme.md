@@ -1,5 +1,6 @@
 # jedify <sup>[![Version Badge](http://vb.teelaun.ch/tellnes/jedify.svg)](https://npmjs.org/package/jedify)</sup>
 
+[![Build Status](https://travis-ci.org/tellnes/jedify.svg?branch=master)](https://travis-ci.org/tellnes/jedify)
 [![Dependency Status](https://david-dm.org/tellnes/jedify.png)](https://david-dm.org/tellnes/jedify)
 [![devDependency Status](https://david-dm.org/tellnes/jedify/dev-status.png)](https://david-dm.org/tellnes/jedify#info=devDependencies)
 [![Tips](https://img.shields.io/gratipay/tellnes.svg)](https://gratipay.com/tellnes/)
