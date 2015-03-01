@@ -1,0 +1,1 @@
+module.exports = require("jedify")({"domain":"messages","locale_data":{"messages":{"One result":["Et resultat","Fant %d resultater"],"":{"domain":"messages","lang":"nb"}}}})
