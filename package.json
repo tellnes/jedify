@@ -7,7 +7,7 @@
   "dependencies": {
     "through": "~2.3.4",
     "po2json": "~0.4.1",
-    "falafel": "~0.3.1",
+    "falafel": "^1.0.1",
     "escodegen": "^1.4.1",
     "jed": "~1.1.0"
   },
