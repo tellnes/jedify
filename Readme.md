@@ -1,9 +1,6 @@
-# jedify <sup>[![Version Badge](http://vb.teelaun.ch/tellnes/jedify.svg)](https://npmjs.org/package/jedify)</sup>
+# jedify
 
-[![Build Status](https://travis-ci.org/tellnes/jedify.svg?branch=master)](https://travis-ci.org/tellnes/jedify)
-[![Dependency Status](https://david-dm.org/tellnes/jedify.png)](https://david-dm.org/tellnes/jedify)
-[![devDependency Status](https://david-dm.org/tellnes/jedify/dev-status.png)](https://david-dm.org/tellnes/jedify#info=devDependencies)
-[![Tips](https://img.shields.io/gratipay/tellnes.svg)](https://gratipay.com/tellnes/)
+[![Version npm](https://img.shields.io/npm/v/jedify.svg?style=flat-square)](https://www.npmjs.com/package/jedify)[![npm Downloads](https://img.shields.io/npm/dm/jedify.svg?style=flat-square)](https://www.npmjs.com/package/jedify)[![Build Status](https://img.shields.io/travis/tellnes/jedify/master.svg?style=flat-square)](https://travis-ci.org/tellnes/jedify)[![Dependencies](https://img.shields.io/david/tellnes/jedify.svg?style=flat-square)](https://david-dm.org/tellnes/jedify)[![Tips](http://img.shields.io/gratipay/tellnes.png?style=flat-square)](https://gratipay.com/~tellnes/)
 
 
 Browserify transformer for po files.
