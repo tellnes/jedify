@@ -12,7 +12,7 @@
     "jed": "~1.1.0"
   },
   "devDependencies": {
-    "tap": "^5.4.2"
+    "tap": "^6.2.0"
   },
   "scripts": {
     "test": "tap test/test-*.js"
